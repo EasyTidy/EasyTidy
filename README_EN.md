@@ -17,6 +17,8 @@ EasyTidy is a powerful file management software that automates the organization 
 - **Flexible Execution Modes**: Supports both manual and automatic execution. You can set delayed starts, periodic execution, or define custom schedules using CRON expressions, catering to different file management needs.
 - **Open Source and Free**: Fully open-source and free to use. We welcome contributions and feedback from the community.
 
+[EasyTidy Questionnaire](https://wj.qq.com/s2/23278078/aafa/)
+
 ## Access
 
 | Overseas | Domestic |
@@ -70,9 +72,9 @@ This project is licensed under the MIT License. However, the **Snap2HTML** snaps
 
 ### Short-Term Goals (Next Three Months)
 
-- [ ] Implement right-click menu functionality to trigger file organization
-- [ ] File window drag-and-drop
-- [ ] Integrate AI article summarization feature
+- [x] Implement right-click menu functionality to trigger file organization
+- [x] File window drag-and-drop
+- [x] Integrate AI article summarization feature
 - [ ] Append file content to specified files
 - [ ] Performance optimization
 
@@ -84,7 +86,7 @@ This project is licensed under the MIT License. However, the **Snap2HTML** snaps
 
 ### Long-Term Goals
 
-- [ ] Explore the feasibility of AI-driven task categorization (Currently, AI categorization is not as effective as expected)
+- [x] Explore the feasibility of AI-driven task categorization (Currently, AI categorization is not as effective as expected)
 
 ## Community Participation
 
