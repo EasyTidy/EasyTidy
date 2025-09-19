@@ -213,6 +213,7 @@
     <PackageReference Include="Nucs.JsonSettings2.Autosave" />
     <PackageReference Include="Quartz" />
     <PackageReference Include="Quartz.Serialization.Json" />
+    <PackageReference Include="SixLabors.ImageSharp" />
     <PackageReference Include="System.Net.Http" />
     <PackageReference Include="System.Text.RegularExpressions" />
     <PackageReference Include="WinUIEx" />
