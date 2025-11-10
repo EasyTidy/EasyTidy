@@ -26,6 +26,7 @@
 	  <PackageReference Include="NPOI" />
 	  <PackageReference Include="Quartz" />
 	  <PackageReference Include="Quartz.Serialization.Json" />
+	  <PackageReference Include="SixLabors.ImageSharp" />
 	  <PackageReference Include="System.Data.SQLite.Core" />
 	  <PackageReference Include="CommunityToolkit.Mvvm" />
   </ItemGroup>
