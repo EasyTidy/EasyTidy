@@ -12,7 +12,7 @@
 **English** | [**简体中文**](./README_CN.md)
 
 <p align="center">
-📢 EasyTidy 2.0 内测招募中,详情见 (https://github.com/EasyTidy/EasyTidy/discussions/28#discussion-7532507)
+📢 EasyTidy 2.0 Recruiting for internal testing, see for details (https://github.com/EasyTidy/EasyTidy/discussions/28#discussion-7532507)
 </p>
 
 EasyTidy is a powerful file management software that automates the organization and handling of files and folders, keeping your file system neat and organized. Key features include:
