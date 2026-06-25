@@ -9,7 +9,7 @@
 <p align="center">EasyTidy 一个<strong>简单</strong>的文件<strong>自动分类整理</strong>工具,轻松创建文件的自动工作流程
 </p>
 
-[**English**](./README_EN.md) | **简体中文**
+[**English**](./README.md) | **简体中文**
 
 <p align="center">
 📢 EasyTidy 2.0 内测招募中,详情见 (https://github.com/EasyTidy/EasyTidy/discussions/28#discussion-7532507)
