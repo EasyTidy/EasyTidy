@@ -11,9 +11,17 @@
 
 **English** | [**简体中文**](./README_CN.md)
 
-<p align="center">
-📢 EasyTidy 2.0 Recruiting for internal testing, see for details (https://github.com/EasyTidy/EasyTidy/discussions/28#discussion-7532507)
-</p>
+<div align="center">
+
+---
+
+## 🚀 EasyTidy 2.0 Beta Program Is Now Open
+
+**The Free Edition of EasyTidy Pro Includes All Features Currently Available in EasyTidy 1.x Community Edition**
+
+👉 **[Learn More & Apply for Beta Access](https://github.com/EasyTidy/EasyTidy/discussions/28)**
+
+</div>
 
 EasyTidy is a powerful file management software that automates the organization and handling of files and folders, keeping your file system neat and organized. Key features include:
 
