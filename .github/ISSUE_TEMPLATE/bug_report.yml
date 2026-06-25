@@ -1,5 +1,5 @@
-name: 🐞 Bug Report / Bug 报告
-description: Report bugs or unexpected behavior to help improve EasyTidy Pro
+name: "🐞 Bug Report / Bug 报告"
+description: "Report bugs or unexpected behavior to help improve EasyTidy Pro"
 title: "[Bug] "
 labels:
   - bug
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Thank You
+        ## Thank You / 感谢反馈
 
         Thank you for helping improve EasyTidy Pro.
 
@@ -25,18 +25,18 @@ body:
   - type: checkboxes
     id: preflight
     attributes:
-      label: Pre-Submission Checklist / 提交前确认
+      label: "Pre-Submission Checklist / 提交前确认"
       options:
-        - label: I have searched existing issues and confirmed this is not a duplicate. / 我已搜索过现有 Issue，确认这不是重复问题。
+        - label: "I have searched existing issues and confirmed this is not a duplicate. / 我已搜索过现有 Issue，确认这不是重复问题。"
           required: true
-        - label: I have updated to the latest version and the issue still exists. / 我已升级到最新版本，问题仍然存在。
+        - label: "I have updated to the latest version and the issue still exists. / 我已升级到最新版本，问题仍然存在。"
           required: true
 
   - type: textarea
     id: describe
     attributes:
-      label: Issue Description / 问题描述
-      description: Describe the issue clearly and concisely. / 请清晰简洁地描述遇到的问题。
+      label: "Issue Description / 问题描述"
+      description: "Describe the issue clearly and concisely. / 请清晰简洁地描述遇到的问题。"
       placeholder: |
         Example / 例如：
 
@@ -53,8 +53,8 @@ body:
   - type: textarea
     id: reproduce
     attributes:
-      label: Steps to Reproduce / 复现步骤
-      description: Provide detailed steps to reproduce the issue. / 请提供可稳定复现问题的步骤。
+      label: "Steps to Reproduce / 复现步骤"
+      description: "Provide detailed steps to reproduce the issue. / 请提供可稳定复现问题的步骤。"
       placeholder: |
         1. Create a task...
         2. Configure a rule...
@@ -73,98 +73,98 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Expected Behavior / 期望行为
-      description: What should have happened? / 你期望程序应该如何表现？
+      label: "Expected Behavior / 期望行为"
+      description: "What should have happened? / 你期望程序应该如何表现？"
     validations:
       required: true
 
   - type: textarea
     id: actual
     attributes:
-      label: Actual Behavior / 实际行为
-      description: What actually happened? Include any error messages if available. / 实际发生了什么？如有错误提示请完整贴出。
+      label: "Actual Behavior / 实际行为"
+      description: "What actually happened? Include any error messages if available. / 实际发生了什么？如有错误提示请完整贴出。"
     validations:
       required: true
 
   - type: dropdown
     id: module
     attributes:
-      label: Affected Module / 涉及功能模块
+      label: "Affected Module / 涉及功能模块"
       options:
-        - File Organization & Rule Matching / 文件整理与规则匹配
-        - Workflow Automation / 工作流编排
-        - AI Classification / AI 智能分类
-        - Batch Rename / 批量重命名
-        - Compression & Encryption / 压缩与加密
-        - Duplicate Finder / 文件去重
-        - Cloud Storage Integration / 云存储集成
-        - Scheduled Tasks & Triggers / 定时任务与调度
-        - Undo & Backup / 撤销与备份
-        - License & Activation / 许可证与激活
-        - Software Update / 软件更新
-        - UI & Settings / 界面与设置
-        - Installation & Startup / 安装与启动
-        - Other / 其他
+        - "File Organization & Rule Matching / 文件整理与规则匹配"
+        - "Workflow Automation / 工作流编排"
+        - "AI Classification / AI 智能分类"
+        - "Batch Rename / 批量重命名"
+        - "Compression & Encryption / 压缩与加密"
+        - "Duplicate Finder / 文件去重"
+        - "Cloud Storage Integration / 云存储集成"
+        - "Scheduled Tasks & Triggers / 定时任务与调度"
+        - "Undo & Backup / 撤销与备份"
+        - "License & Activation / 许可证与激活"
+        - "Software Update / 软件更新"
+        - "UI & Settings / 界面与设置"
+        - "Installation & Startup / 安装与启动"
+        - "Other / 其他"
     validations:
       required: true
 
   - type: input
     id: app-version
     attributes:
-      label: Application Version / 软件版本
-      description: Found in Settings → About. / 可在“设置 → 关于”中查看。
-      placeholder: 2.0.0-beta.1
+      label: "Application Version / 软件版本"
+      description: "Found in Settings → About. / 可在“设置 → 关于”中查看。"
+      placeholder: "2.0.0-beta.1"
     validations:
       required: true
 
   - type: dropdown
     id: channel
     attributes:
-      label: Release Channel / 发布通道
+      label: "Release Channel / 发布通道"
       options:
-        - Stable
-        - Beta
-        - Unknown / 不确定
+        - "Stable"
+        - "Beta"
+        - "Unknown / 不确定"
     validations:
       required: true
 
   - type: dropdown
     id: install-type
     attributes:
-      label: Installation Type / 安装方式
+      label: "Installation Type / 安装方式"
       options:
-        - EXE Installer
-        - Self-contained Package
-        - Portable ZIP
-        - Unknown / 不确定
+        - "EXE Installer"
+        - "Self-contained Package"
+        - "Portable ZIP"
+        - "Unknown / 不确定"
     validations:
       required: true
 
   - type: dropdown
     id: edition
     attributes:
-      label: Edition / 版本类型
+      label: "Edition / 版本类型"
       options:
-        - Community Edition / 社区版
-        - Trial Edition / 试用版
-        - Professional Edition / 专业版
-        - Beta Edition / 内测版
+        - "Community Edition / 社区版"
+        - "Trial Edition / 试用版"
+        - "Professional Edition / 专业版"
+        - "Beta Edition / 内测版"
     validations:
       required: true
 
   - type: input
     id: os-version
     attributes:
-      label: Operating System / 操作系统版本
-      description: Example: Windows 11 24H2, Windows 10 22H2
-      placeholder: Windows 11 24H2
+      label: "Operating System / 操作系统版本"
+      description: "Example: Windows 11 24H2, Windows 10 22H2"
+      placeholder: "Windows 11 24H2"
     validations:
       required: true
 
   - type: textarea
     id: logs
     attributes:
-      label: Logs / 日志信息
+      label: "Logs / 日志信息"
       description: |
         Please attach relevant logs.
 
@@ -178,13 +178,13 @@ body:
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshots or Screen Recording / 截图或录屏
-      description: Screenshots or recordings are very helpful for diagnosing issues. / 如有界面异常或崩溃提示，附上截图或录屏会非常有帮助。
+      label: "Screenshots or Screen Recording / 截图或录屏"
+      description: "Screenshots or recordings are very helpful for diagnosing issues. / 如有界面异常或崩溃提示，附上截图或录屏会非常有帮助。"
 
   - type: textarea
     id: extra
     attributes:
-      label: Additional Information / 补充说明
+      label: "Additional Information / 补充说明"
       description: |
         Any other information that may help diagnose the issue.
 
