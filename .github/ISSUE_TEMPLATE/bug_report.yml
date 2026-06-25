@@ -1,67 +1,203 @@
-# EasyTidy
+name: 🐞 Bug Report / Bug 报告
+description: Report bugs or unexpected behavior to help improve EasyTidy Pro
+title: "[Bug] "
+labels:
+  - bug
 
-name: 🐛 Bug Report
-description: Problems with EasyTidy
-title: '[BUG]: title'
-labels: ['type: bug']
 body:
   - type: markdown
     attributes:
       value: |
-        # ⬆️ Please give a concise and clear title ⬆️
-        ## Thank you for submitting a EasyTidy 🐛 Bug Report!
+        ## Thank You
+
+        Thank you for helping improve EasyTidy Pro.
+
+        Please provide as much detail as possible. The more information you provide, the easier it will be for us to reproduce and fix the issue.
+
+        感谢你帮助改进 EasyTidy Pro。
+
+        请尽量完整填写以下信息，越详细越有助于我们快速定位和修复问题。
+
+        Before submitting, please search existing issues to avoid duplicates.
+
+        提交前请先搜索已有 Issue，避免重复提交。
+
   - type: checkboxes
+    id: preflight
     attributes:
-      label: 🔎 Search before asking
-      description: >
-        Please search the EasyTidy [Docs](https://easytidy.luckyits.com/), [Issues](https://github.com/SaboZhang/Organize/issues) to see if a similar bug report already exists.
+      label: Pre-Submission Checklist / 提交前确认
       options:
-        - label: I have searched the EasyTidy [Docs](https://easytidy.luckyits.com/) and found no similar bug report.
+        - label: I have searched existing issues and confirmed this is not a duplicate. / 我已搜索过现有 Issue，确认这不是重复问题。
           required: true
-        - label: I have searched the EasyTidy [Issues](https://github.com/SaboZhang/Organize/issues) and found no similar bug report.
+        - label: I have updated to the latest version and the issue still exists. / 我已升级到最新版本，问题仍然存在。
           required: true
 
   - type: textarea
+    id: describe
     attributes:
-      label: 🐛 Bug (问题描述)
-      description: Provide console output with error messages and/or screenshots of the bug. (请提供详细报错信息或者截图)
+      label: Issue Description / 问题描述
+      description: Describe the issue clearly and concisely. / 请清晰简洁地描述遇到的问题。
       placeholder: |
-        💡 ProTip! Include as much information as possible (screenshots, logs, tracebacks etc.) to receive the most helpful response.
+        Example / 例如：
+
+        - The application crashes when running an organization task.
+        - Files are not moved according to the configured rule.
+
+        或：
+
+        - 执行整理任务时程序崩溃
+        - 文件未按规则移动到目标目录
     validations:
       required: true
 
   - type: textarea
+    id: reproduce
     attributes:
-      label: 🏃‍♂️ Environment (运行环境)
-      description: Please describe your running environment so that I can reproduce the bug. (请给出详细系统信息，便于复现问题)
+      label: Steps to Reproduce / 复现步骤
+      description: Provide detailed steps to reproduce the issue. / 请提供可稳定复现问题的步骤。
       placeholder: |
-        ```bash
-        处理器	12th Gen Intel(R) Core(TM) i7-12700H   2.30 GHz
-        机带 RAM	16.0 GB (15.7 GB 可用)
-        系统类型	64 位操作系统, 基于 x64 的处理器
-        版本	Windows 11 家庭中文版
-        版本号	24H2
-        操作系统版本	26100.2033
-        ```
+        1. Create a task...
+        2. Configure a rule...
+        3. Click Run...
+        4. The issue occurs...
+
+        或
+
+        1. 新建任务...
+        2. 配置规则...
+        3. 点击执行...
+        4. 出现问题...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior / 期望行为
+      description: What should have happened? / 你期望程序应该如何表现？
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior / 实际行为
+      description: What actually happened? Include any error messages if available. / 实际发生了什么？如有错误提示请完整贴出。
+    validations:
+      required: true
+
+  - type: dropdown
+    id: module
+    attributes:
+      label: Affected Module / 涉及功能模块
+      options:
+        - File Organization & Rule Matching / 文件整理与规则匹配
+        - Workflow Automation / 工作流编排
+        - AI Classification / AI 智能分类
+        - Batch Rename / 批量重命名
+        - Compression & Encryption / 压缩与加密
+        - Duplicate Finder / 文件去重
+        - Cloud Storage Integration / 云存储集成
+        - Scheduled Tasks & Triggers / 定时任务与调度
+        - Undo & Backup / 撤销与备份
+        - License & Activation / 许可证与激活
+        - Software Update / 软件更新
+        - UI & Settings / 界面与设置
+        - Installation & Startup / 安装与启动
+        - Other / 其他
     validations:
       required: true
 
   - type: input
+    id: app-version
     attributes:
-      label: Software Version (应用版本)
-      placeholder: 'Eg: 2.0.0'
-    validations:
-          required: true
-
-  - type: textarea
-    attributes:
-      label: 🌰 Steps to Reproduce the Issue (问题复现步骤)
-      description: >
-        When reporting issues, providing detailed steps to reproduce the problem helps in
-        accurately identifying the bug, facilitating quicker resolution. (请务必提供该复现步骤，这样节省大家时间)
-      placeholder: |
-        ```bash
-        # Operation steps
-        ```
+      label: Application Version / 软件版本
+      description: Found in Settings → About. / 可在“设置 → 关于”中查看。
+      placeholder: 2.0.0-beta.1
     validations:
       required: true
+
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Release Channel / 发布通道
+      options:
+        - Stable
+        - Beta
+        - Unknown / 不确定
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install-type
+    attributes:
+      label: Installation Type / 安装方式
+      options:
+        - EXE Installer
+        - Self-contained Package
+        - Portable ZIP
+        - Unknown / 不确定
+    validations:
+      required: true
+
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition / 版本类型
+      options:
+        - Community Edition / 社区版
+        - Trial Edition / 试用版
+        - Professional Edition / 专业版
+        - Beta Edition / 内测版
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating System / 操作系统版本
+      description: Example: Windows 11 24H2, Windows 10 22H2
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / 日志信息
+      description: |
+        Please attach relevant logs.
+
+        Log files are located in the `logs` folder under the application directory.
+
+        Please remove sensitive information before posting.
+
+        请附上相关日志，并注意删除隐私信息（真实路径、账号、密钥等）。
+      render: text
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Screen Recording / 截图或录屏
+      description: Screenshots or recordings are very helpful for diagnosing issues. / 如有界面异常或崩溃提示，附上截图或录屏会非常有帮助。
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Information / 补充说明
+      description: |
+        Any other information that may help diagnose the issue.
+
+        Examples:
+        - Rule configuration
+        - Cloud storage configuration
+        - AI model configuration
+        - Specific file types involved
+        - Whether the issue can be reproduced consistently
+
+        其他有助于排查的信息，例如：
+        - 规则配置
+        - 云存储配置
+        - AI 模型配置
+        - 特定文件触发
+        - 是否稳定复现
