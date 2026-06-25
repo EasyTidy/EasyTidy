@@ -12,7 +12,7 @@
 [**English**](./README_EN.md) | **简体中文**
 
 <p align="center">
-### 📢 EasyTidy 2.0 内测招募中,详情见 [公告链接](https://github.com/EasyTidy/EasyTidy/discussions/28#discussion-7532507)
+📢 EasyTidy 2.0 内测招募中,详情见 [公告链接](https://github.com/EasyTidy/EasyTidy/discussions/28#discussion-7532507)
 </p>
 
 EasyTidy 是一款功能强大的文件管理软件，致力于自动化处理和组织文件与文件夹，使您的文件系统保持整洁有序。其主要特色功能包括：
