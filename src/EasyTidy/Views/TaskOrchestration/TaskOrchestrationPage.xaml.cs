@@ -48,6 +48,14 @@ public sealed partial class TaskOrchestrationPage : Page
     private void OnLoaded(object sender, RoutedEventArgs e)
     {
         ViewModel.Initialize(NotificationQueue);
+        // 用户关闭过该通知后不再显示
+        EasyTidyPro.IsOpen = !Settings.ProNoticeClosed;
+    }
+
+    private void EasyTidyPro_CloseButtonClick(InfoBar sender, object args)
+    {
+        Settings.ProNoticeClosed = true;
+        Settings.Save();
     }
 
     private void OnUnloaded(object sender, RoutedEventArgs e)

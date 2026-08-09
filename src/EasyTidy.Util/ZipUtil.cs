@@ -1,4 +1,4 @@
-﻿using EasyTidy.Log;
+using EasyTidy.Log;
 using EasyTidy.Model;
 using SharpCompress.Archives;
 using SharpCompress.Common;
@@ -229,7 +229,7 @@ public class ZipUtil
 
     private static void ExtractTarGz(string filePath, string targetDirectory, string rootFolderName, string filterExtension)
     {
-        using var archive = ArchiveFactory.Open(filePath);
+        using var archive = ArchiveFactory.OpenArchive(filePath);
         foreach (var entry in archive.Entries)
         {
             if (!entry.IsDirectory)
@@ -259,7 +259,7 @@ public class ZipUtil
         var extensions = string.IsNullOrWhiteSpace(filterExtension)
             ? Array.Empty<string>()
             : filterExtension.Split([';', '|']).Select(ext => ext.Trim()).ToArray();
-        using var archive = ArchiveFactory.Open(filePath);
+        using var archive = ArchiveFactory.OpenArchive(filePath);
         var reader = archive.ExtractAllEntries();
         while (reader.MoveToNextEntry())
         {
@@ -335,7 +335,7 @@ public class ZipUtil
         string finalExtractPath = Path.Combine(directoryPath, folderName);
         Directory.CreateDirectory(finalExtractPath);
 
-        using (var archive = ArchiveFactory.Open(filePath))
+        using (var archive = ArchiveFactory.OpenArchive(filePath))
         {
             foreach (var entry in archive.Entries)
             {
@@ -359,7 +359,7 @@ public class ZipUtil
             ? Array.Empty<string>()
             : filterExtension.Split([';', '|']).Select(ext => ext.Trim()).ToArray();
 
-        using (var archive = ArchiveFactory.Open(filePath))
+        using (var archive = ArchiveFactory.OpenArchive(filePath))
         {
             var reader = archive.ExtractAllEntries();
             // 如果目标解压路径不存在，则创建
@@ -470,7 +470,7 @@ public class ZipUtil
     /// </summary>
     private static string Get7ZipPath()
     {
-        string sevenZipPath = Path.Combine(Constants.ExecutePath, "Assets", "lib", "7z.exe");
+        string sevenZipPath = Path.Combine(Model.Constants.ExecutePath, "Assets", "lib", "7z.exe");
 
         if (!File.Exists(sevenZipPath))
             throw new FileNotFoundException("7-Zip 可执行文件未找到，请检查路径是否正确。", sevenZipPath);

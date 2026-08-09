@@ -33,6 +33,20 @@
     </i:Interaction.Behaviors>
 
     <Grid>
+        <muxc:InfoBar x:Name="EasyTidyPro"
+                      x:Uid="EasyTidyProNotice"
+                      HorizontalAlignment="Center"
+                      VerticalAlignment="Top"
+                      Canvas.ZIndex="10"
+                      IsClosable="True"
+                      Severity="Informational"
+                      IsOpen="False"
+                      CloseButtonClick="EasyTidyPro_CloseButtonClick">
+            <muxc:InfoBar.ActionButton>
+                <HyperlinkButton x:Uid="EasyTidyProNoticeLink"
+                                 NavigateUri="https://easytidy.net"/>
+            </muxc:InfoBar.ActionButton>
+        </muxc:InfoBar>
         <muxc:InfoBar x:Name="NoticeInfoBar"
                  HorizontalAlignment="Center"
                  VerticalAlignment="Top"

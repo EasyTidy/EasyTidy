@@ -1840,4 +1840,10 @@
   <data name="Settings_WebDav_Description" xml:space="preserve">
     <value>アプリのWebDavバックアップとWebDavアップロード用のアカウントとパスワードを設定する</value>
   </data>
+  <data name="EasyTidyProNotice.Message" xml:space="preserve">
+    <value>EasyTidy Pro が新しい自動化機能とワークフロー体験を提供開始しました</value>
+  </data>
+  <data name="EasyTidyProNoticeLink.Content" xml:space="preserve">
+    <value>詳細を見る</value>
+  </data>
 </root>

@@ -1127,4 +1127,10 @@
   <data name="DateTimeCheatSheet_YearLastDigit" xml:space="preserve">
     <value>Only the last digit of the year is represented</value>
   </data>
+  <data name="EasyTidyProNotice.Message" xml:space="preserve">
+    <value>EasyTidy Pro is here with all-new automation features and workflow experience</value>
+  </data>
+  <data name="EasyTidyProNoticeLink.Content" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
 </root>

@@ -285,7 +285,7 @@ public class FileResolver
 
     private static (bool isSingleFile, bool isSingleDirectory, string rootFolderName) AnalyzeTarGzContent(string filePath)
     {
-        using var archive = ArchiveFactory.Open(filePath);
+        using var archive = ArchiveFactory.OpenArchive(filePath);
         var entries = archive.Entries.Where(e => !e.IsDirectory).ToList();
 
         var rootFolders = entries
@@ -309,7 +309,7 @@ public class FileResolver
 
     private static (bool isSingleFile, bool isSingleDirectory, string rootFolderName) AnalyzeRar7zContent(string filePath)
     {
-        using var archive = ArchiveFactory.Open(filePath);
+        using var archive = ArchiveFactory.OpenArchive(filePath);
         var entries = archive.Entries.Where(e => !e.IsDirectory).ToList();
 
         var rootFolders = entries

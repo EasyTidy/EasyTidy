@@ -1837,4 +1837,10 @@
   <data name="Settings_WebDav_Description" xml:space="preserve">
     <value>設定應用程式 WebDAV 備份和 WebDAV 上傳的帳號和密碼</value>
   </data>
+  <data name="EasyTidyProNotice.Message" xml:space="preserve">
+    <value>EasyTidy Pro 已發布全新的自動化功能和工作流程體驗</value>
+  </data>
+  <data name="EasyTidyProNoticeLink.Content" xml:space="preserve">
+    <value>了解詳情</value>
+  </data>
 </root>

@@ -43,5 +43,10 @@ public partial class AppConfig : JsonSettings, IVersionable
     public virtual bool IdOrder { get; set; } = false;
 
     public virtual bool EnabledRightClick { get; set; } = true;
+
+    /// <summary>
+    /// 用户主动关闭 EasyTidy Pro 发布通知后置为 true，之后不再显示
+    /// </summary>
+    public virtual bool ProNoticeClosed { get; set; } = false;
     
 }
