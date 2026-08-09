@@ -15,11 +15,15 @@
 
 ---
 
-## 🚀 EasyTidy 2.0 Beta Program Is Now Open
+## 🚀 EasyTidy Pro Is Here
 
-**The Free Edition of EasyTidy Pro Includes All Features Currently Available in EasyTidy 1.x Community Edition**
+After growing together with the community through EasyTidy 1.x, we are excited to introduce EasyTidy Pro — a new version focused on a more powerful and automated file organization experience.
 
-👉 **[Learn More & Apply for Beta Access](https://github.com/EasyTidy/EasyTidy/discussions/28)**
+The Free Edition of EasyTidy Pro includes all features currently available in the EasyTidy 1.x Community Edition.
+
+Thank you to everyone who has supported EasyTidy. Your feedback and contributions helped shape the future of the project.
+
+👉 [Learn More About EasyTidy Pro](https://easytidy.net/)
 
 </div>
 
