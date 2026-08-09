@@ -1,4 +1,4 @@
-﻿using CommunityToolkit.WinUI;
+using CommunityToolkit.WinUI;
 using CommunityToolkit.WinUI.Behaviors;
 using CommunityToolkit.WinUI.Collections;
 using EasyTidy.Common.Database;
@@ -1304,7 +1304,7 @@ public partial class TaskOrchestrationViewModel : ObservableRecipient
         { "CompressedFile","*.7z;*.bz2;*.gz;*.iso;*.rar;*.xz;*.z;*.zip" },
         { "Document","*.djvu;*.doc;*.docx;*.epub;*.odt;*.pdf;*.rtp;*.tex;*.txt" },
         { "Photograph","*.bmp;*.gif;*.ico;*.jpg;*.jpeg;*.png;*.psd;*.tif;*.tiff" },
-        { "Music","*.aac;*.flac;*.m4a;*mp3*.ogg;*.wma;*.wav" },
+        { "Music","*.aac;*.flac;*.m4a;*.mp3;*.ogg;*.wma;*.wav" },
         { "PresentationAndWorksheet","*.csv;*.odp;*.ods;*.pps;*.ppt;*.pptx;*.xls;*.xlsx" },
         { "Video","*.avi;*.fly;*.m4v;*.mkv;*.mov;*.mp4;*.mpeg;*.mpg;*.wmv" },
     };
