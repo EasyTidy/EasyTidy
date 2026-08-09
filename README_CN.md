@@ -13,11 +13,15 @@
 
 <div align="center">
 
-# 🚀 EasyTidy 2.0 Beta Program
+# 🚀 EasyTidy Pro 正式上线
 
-### 内测招募进行中
+感谢社区用户一直以来对 EasyTidy 的支持。
 
-👉 **[查看详情并申请内测](https://github.com/EasyTidy/EasyTidy/discussions/28)**
+基于 EasyTidy 1.x 社区版的发展和反馈，我们推出了 EasyTidy Pro，为用户带来更加智能、高效的文件整理和自动化体验。
+
+免费版 EasyTidy Pro 仍包含 EasyTidy 1.x 社区版已有的全部功能。
+
+👉 [了解 EasyTidy Pro](https://easytidy.net/)
 
 </div>
 
