@@ -4,13 +4,23 @@
 
 ## 版本说明
 
-- **网盘新增不包含 WinUI 和 .NET 的版本**，更新程序暂不支持更新不包含 WinUI 3 App SDK 的版本。
-- **EasyTidy_<版本号>_win-x64_Lite 版本**需要自行安装 Windows App SDK 和 .NET 8 运行时。
-- 新增 **MSI 安装包** 和 **单体应用**（请在网盘中获取）。
-- 要拖拽功能请不要设置源文件夹
-- AI相关功能已可用；如使用存在问题，请反馈，谢谢！
-- AI分类支持目前已有的除外部程序调用跟AI功能本身以外的所有操作方式
-- [问卷调查](https://wj.qq.com/s2/23278078/aafa/)
+### EasyTidy 社区版 v1.3.8.809
+
+感谢所有社区用户一直以来对 EasyTidy 的支持。
+
+这是 EasyTidy 1.x 社区版向 EasyTidy Pro 发展的重要版本。
+
+🚀 EasyTidy Pro 已正式发布！
+
+Pro 版本带来了：
+- 更强大的自动化能力
+- 更完善的任务流程
+- 更好的使用体验
+
+EasyTidy Pro 免费版包含社区版已有的全部功能。
+
+了解更多：
+https://easytidy.net/
 
 ## 更新日志详情
 
